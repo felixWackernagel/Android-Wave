@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android-Wave</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="view_wave">Open</string>
+    <string name="removeFromInbox">Remove from Inbox</string>
+    <string name="follow_wave">Follows</string>
+    <string name="mark_as_read">Mark as Read</string>
+    <string name="add_particiant">Add participant</string>
+    <string name="hello">Hello World, OauthTest!</string>
+
+</resources>

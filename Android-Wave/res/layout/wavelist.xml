@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip"
+    android:id="@+id/waveItemRow">
+    
+    <ImageView android:id="@+id/imgWave"
+   			   android:layout_width="wrap_content"
+   			   android:layout_height="fill_parent"
+   			   android:layout_marginRight="6dip"
+   			   android:layout_alignParentTop="true"
+       		   android:layout_alignParentBottom="true"
+ 		       android:src="@drawable/ic_launcher"/>
+    
+    <TextView android:id="@+id/titleWave"
+    		  android:text="@+id/titleWave" 
+    	      android:layout_width="fill_parent"
+    	      android:layout_height="wrap_content"
+    	      android:layout_toRightOf="@id/imgWave"
+    	      android:layout_alignParentRight="true"
+    	      android:layout_alignParentTop="true"
+    	      android:layout_alignWithParentIfMissing="true"
+    		  android:gravity="center_vertical"
+    		  android:textStyle="bold"/>								
+ 
+    <TextView android:id="@+id/participants"
+    		  android:text="@+id/participants" 
+    		  android:layout_width="fill_parent"
+    	      android:layout_height="fill_parent"
+    		  android:layout_toRightOf="@id/imgWave"
+    	      android:layout_alignParentBottom="true"
+    	      android:layout_alignParentRight="true"
+    		  android:singleLine="true"
+    		  android:ellipsize="marquee"
+    		  android:textSize="10px"
+    		  android:gravity="center_vertical"
+              android:layout_below="@id/titleWave"/>
+ 
+    <TextView android:text="@+id/unread" 
+              android:id="@+id/unread" 
+              android:textStyle="bold"
+              android:layout_toLeftOf="@id/titleWave"
+              android:layout_alignParentTop="true"
+    		  android:layout_alignParentRight="true"
+              android:paddingRight="2px"
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content"/>
+              
+ 				              
+    <ImageView android:id="@+id/throbber"
+       		   android:layout_width="wrap_content"
+       		   android:layout_height="wrap_content"
+    		   android:src="@android:drawable/ic_popup_sync"
+    		   android:visibility="gone"/>
+       
+</RelativeLayout>
+        
