@@ -1,22 +1,22 @@
-Für Wave-Robot-API:
+Wave-Robot-API:
 
-Importänderungen:
+Important changes:
 
 ElementGsonAdapter:
 AbstractRobot:
 	import org.apache.commons.codec.binary.Base64; -> android.util.Base64
 
 
-Codeänderungen:
+Code changes:
 
-// kommt mit späterer Android version
+// is supported by later android version
 String.isEmpty() -> JavaHelper.isEmptry( String toCheck )
 
-// sicherlich auch mit späterer Android version
+// is supported by later android version
 IOException( Exception ) -> JavaHelper.newIOException( Throwable toWrap )
 
 
-Für ProcessOne:
+ProcessOne:
 
 Wavelt:
-	mehrere Methoden und Konstruktor public gemacht, da Paketstruktur geändert wurde.
+	make more methods and constructors public because i change the package structure.
